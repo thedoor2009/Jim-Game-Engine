@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DXUT">
+      <UniqueIdentifier>{501576df-e0af-4229-8246-1e00741d730b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exports">
+      <UniqueIdentifier>{0844b9a4-99df-4372-8e86-0b837318d7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{b43780be-6212-4a34-bd57-f9d385460cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Device">
+      <UniqueIdentifier>{ae498cbe-2072-4184-9b2a-c372e4d50614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Classes">
+      <UniqueIdentifier>{9e1838c7-c0d4-480f-9c3b-c97084cc62bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_Source\DXUT\DXUT.cpp">
+      <Filter>Source Files\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\DXUT\DXUTenum.cpp">
+      <Filter>Source Files\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\DXUT\DXUTmisc.cpp">
+      <Filter>Source Files\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\Buffers.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Flow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Device\State.cpp">
+      <Filter>Source Files\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Device\ChangeCallback.cpp">
+      <Filter>Source Files\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\ImmediateMode.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\Classes\LargeVertexBuffer.cpp">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\Classes\Sprite.cpp">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\Classes\Texture.cpp">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\Classes\Mesh.cpp">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\Classes\LargeIndexBuffer.cpp">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\Classes\ShaderAssembly.cpp">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="_Source\Rendering\Classes\Material.cpp">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_Source\DXUT\DXUT.h">
+      <Filter>Source Files\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\DXUT\DXUTenum.h">
+      <Filter>Source Files\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\DXUT\DXUTmisc.h">
+      <Filter>Source Files\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\IReferenceCounted.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Sprite.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Types.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Cheesy.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Text.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Keyboard.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\System.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Rendering\Buffers.h">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Flow.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Device\State.h">
+      <Filter>Source Files\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Flow.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\IReferenceCounted.inl">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Device\ChangeCallback.h">
+      <Filter>Source Files\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Rendering\Classes\LargeVertexBuffer.h">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\ImmediateMode.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Rendering\Classes\LargeIndexBuffer.h">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\MeshData.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Rendering\Classes\ShaderAssembly.h">
+      <Filter>Source Files\Rendering\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Mesh.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Material.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="_Source\Exports\Texture.h">
+      <Filter>Exports</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

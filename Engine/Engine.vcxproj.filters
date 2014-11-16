@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{f9d8e233-468c-4d12-a228-3f151acec5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{f33aed7f-7662-4e4f-9099-6290b87871eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{dfa65ca3-0a3e-42c6-a074-3dd3049a5442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{5675e2a5-9320-4112-aed4-e7fa9d144200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Management">
+      <UniqueIdentifier>{429d05c3-5e8e-47c6-ae7d-a986afc9ffe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Management\Profiling">
+      <UniqueIdentifier>{82e3806b-97fe-40e1-89c7-f9611aa6c3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Management\Memeory">
+      <UniqueIdentifier>{c9a80cb8-8fc8-410e-84d4-918269313518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Management\Messaging">
+      <UniqueIdentifier>{b29b73da-890b-4c28-b5cb-a87fd50b7c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Management\RingBuffer">
+      <UniqueIdentifier>{1a03b7b6-1725-47b3-a0f6-e08050fa2e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Management\SharedPointer">
+      <UniqueIdentifier>{cdecd392-e59c-4a7f-a3e9-25a2c24d59f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\SpriteController">
+      <UniqueIdentifier>{9344a00c-3778-4c27-9b13-94fe572136a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Math">
+      <UniqueIdentifier>{00ac4788-60b7-4caf-ba34-eb0eb5d71aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Math\Vector">
+      <UniqueIdentifier>{05ac4182-324a-4ddf-8760-e077353b2020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World">
+      <UniqueIdentifier>{ccf40007-eaa8-4ed2-a7ab-28f4a77628b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Collision">
+      <UniqueIdentifier>{b75d81ae-775e-4a2d-943e-0360c9882bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Collision\CollisionBox">
+      <UniqueIdentifier>{b44b347c-9532-45ab-bd9c-08e7d50cf129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Collision\Collision">
+      <UniqueIdentifier>{b4cdcd1e-9667-44c0-b20d-b3b61d324d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Collision\TriggerBox">
+      <UniqueIdentifier>{874182a2-8a36-4ba5-9191-c3610e830d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Render">
+      <UniqueIdentifier>{d8d68be7-c62e-459e-a5b7-33876cd4c382}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Coordination.cpp">
+      <Filter>Game\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteController.cpp">
+      <Filter>Sprite\SpriteController</Filter>
+    </ClCompile>
+    <ClCompile Include="Spirte.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>Management\RingBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugPrint.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSprite.cpp">
+      <Filter>Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Game\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedString.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerBox.cpp">
+      <Filter>Game\Collision\TriggerBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Game\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="LNode.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling.cpp">
+      <Filter>Management\Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>Management\Memeory</Filter>
+    </ClCompile>
+    <ClCompile Include="BitArray.cpp">
+      <Filter>Management\Memeory</Filter>
+    </ClCompile>
+    <ClCompile Include="Messaging.cpp">
+      <Filter>Management\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBox.cpp">
+      <Filter>Game\Collision\CollisionBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Game\Collision\Collision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Coordination.h">
+      <Filter>Game\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteController.h">
+      <Filter>Sprite\SpriteController</Filter>
+    </ClInclude>
+    <ClInclude Include="Spirte.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>Management\RingBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugPrint.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="IsNan.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="OrNew.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSprite.h">
+      <Filter>Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Game\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedPtr.h">
+      <Filter>Management\SharedPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionInfo.h">
+      <Filter>Game\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedBitSet.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerBox.h">
+      <Filter>Game\Collision\TriggerBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Equal.h">
+      <Filter>Game\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Game\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Zero.h">
+      <Filter>Game\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Game\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Game\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="LNode.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling.h">
+      <Filter>Management\Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Management\Memeory</Filter>
+    </ClInclude>
+    <ClInclude Include="BitArray.h">
+      <Filter>Management\Memeory</Filter>
+    </ClInclude>
+    <ClInclude Include="IMessageHandler.h">
+      <Filter>Management\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Messaging.h">
+      <Filter>Management\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBox.h">
+      <Filter>Game\Collision\CollisionBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Game\Collision\Collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HashedString.inl">
+      <Filter>Tool</Filter>
+    </None>
+    <None Include="NamedBitSet.inl">
+      <Filter>Tool</Filter>
+    </None>
+  </ItemGroup>
+</Project>

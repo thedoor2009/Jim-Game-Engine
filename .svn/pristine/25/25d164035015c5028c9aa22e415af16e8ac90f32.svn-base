@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="JimGame.cpp">
+      <Filter>JimGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterController.cpp">
+      <Filter>Controller\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="FreezeController.cpp">
+      <Filter>Controller\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanController.cpp">
+      <Filter>Controller\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>MessagingHandler\CollisionMessagingHandler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JimGame">
+      <UniqueIdentifier>{74685589-978b-4ad5-9574-d26626079742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{084a8e77-d2fa-4fa6-839c-b928b46af80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{bde9e2f8-5ad1-4129-8696-889df76838d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MessagingHandler">
+      <UniqueIdentifier>{61c0c268-6902-4d8b-91e0-3287fc9f3824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Monster">
+      <UniqueIdentifier>{d166253f-0644-4767-b8fc-7e6174fd6b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Freeze">
+      <UniqueIdentifier>{c61ccf70-df56-4efd-87eb-54b712ddd0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Human">
+      <UniqueIdentifier>{e1713e34-84a8-47a9-a66e-d3ca00cd6562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MessagingHandler\CollisionMessagingHandler">
+      <UniqueIdentifier>{b128bd82-ff93-4b45-8cbf-d14dae237b70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JimGame.h">
+      <Filter>JimGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterController.h">
+      <Filter>Controller\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="FreezeController.h">
+      <Filter>Controller\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanController.h">
+      <Filter>Controller\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>MessagingHandler\CollisionMessagingHandler</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
